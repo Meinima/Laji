@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Shopping</title>
+   <link href="./img/smlogo.gif" rel="shortcut icon" />
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="./css/shop.css">
+   <style>
+      @media ( min-width:992px ){
+         .sm{display:block}
+      }
+      @media ( max-width:767px ){
+         .sm{display:none}
+      }
+      @media ( min-width:992px ){
+         .smmm{height:500px}
+      }
+      @media ( max-width:767px ){
+         .smmm{height:300px}
+      }
+      .bigger{
+         color: white;
+         transition: all 0.5s;
+         font-weight: 600;
+      }
+      .bigger:hover{
+         transform: scale(1.05);
+         color: #57b13b;
+      }
+      *{
+         list-style: none;
+      }
+      .footshop{
+         padding: 0;
+      }
+      .footshop a{
+         color: #898989;
+         text-decoration: none;
+      }
+      .footshop a:hover{
+         color: #57b13b;
+      }
+      @media ( min-width:992px ){
+         .kuaikuai{display:inline-block}
+      }
+      @media ( max-width:767px ){
+         .kuaikuai{height:block}
+      }
+
+   </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse" style="margin: 0;">
+       <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-top: 7%;">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+             <a href="./shop.html" style="display: inline-block;margin:3% 0;">
+                <img src="./img/11111.png">
+             </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <div class="nav navbar-nav navbar-right">
+                <img src="./img/1.gif" class="img-responsive" style="margin: 0 auto;position: relative; right: -10px;">
+                <p class="text-center" style="color: white;">Cart</p>
+             </div>
+             <form class="navbar-form navbar-right" style="margin-top: 1.5%;">
+                <div class="form-group">
+                   <input type="text" class="form-control" placeholder="Search" style="width:70%;display: inline-block">
+                   <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+             </form>
+             <div class="sm">
+                <br><br><br>
+             </div>
+                <ul class="nav navbar-nav ">
+                <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLOTHING <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                         <li><a href="./shopall.html">Men</a></li>
+                         <li><a href="./shopall.html">Women</a></li>
+                         <li><a href="./shopall.html">Youth</a></li>
+                         <li><a href="./shopall.html">Outerwear</a></li>
+                         <li><a href="./shopall.html">Hats</a></li>
+                         <li><a href="./shopall.html">Shop All</a></li>
+                      </ul>   
+                   </li>
+                   <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCESSORIES <span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                      <li><a href="./shopall.html">Gloves</a></li>
+                      <li><a href="./shopall.html">Hats</a></li>
+                      <li><a href="./shopall.html">Pins and Pathes</a></li>
+                      <li><a href="./shopall.html">Wallets</a></li>
+                      <li><a href="./shopall.html">Bags and Packs</a></li>
+                      <li><a href="./shopall.html">Jewelry</a></li>
+                      <li><a href="./shopall.html">Belts</a></li>
+                      <li><a href="./shopall.html">Bracelets</a></li>
+                      <li><a href="./shopall.html">Masks</a></li>
+                      <li><a href="./shopall.html">Lanyards</a></li>
+                      <li><a href="./shopall.html">Scarves</a></li>
+                      <li><a href="./shopall.html">Shop All</a></li>
+                   </ul>   
+                </li>
+                <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TOYS <span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                      <li><a href="./shopall.html">Plush</a></li>
+                      <li><a href="./shopall.html"href="./shopall.html">Action Figures</a></li>
+                      <li><a href="./shopall.html">Vinyl Figures</a></li>
+                      <li><a href="./shopall.html">Building Figures</a></li>
+                      <li><a href="./shopall.html">More Toys</a></li>
+                      <li><a href="./shopall.html">Shop All</a></li>
+                   </ul>
+                </li>
+                <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EVERYTHING ELSE <span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                      <li><a href="./shopall.html">Poster</a></li>
+                      <li><a href="./shopall.html">Books</a></li>
+                      <li><a href="./shopall.html">Drinkware</a></li>
+                      <li><a href="./shopall.html">Stickers</a></li>
+                      <li><a href="./shopall.html">Keychains</a></li>
+                      <li><a href="./shopall.html">On Sale!</a></li>
+                   </ul>
+                </li>
+             </ul>
+          </div><!-- /.navbar-collapse -->
+       </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+  <!-- 轮播 -->
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+         <!-- Indicators -->
+         <ol class="carousel-indicators">
+           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+         </ol>
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner" role="listbox">
+           <div class="item active">
+             <div class="smmm" style="width: 100%;background:url(./img/aaa2.jpg) center center / cover"></div>
+             <div style="width:50%;height:80%;;position:absolute;top: 18%;left: 15%;">
+                <p style="font-size: 5rem;font-weight: 700;color: white;white-space: wrap">ADVENTURE FIGURES</p>
+                <p style="font-size: 2rem;font-weight: 500;color: white;" class="sm">Series I</p>
+                <a href="#" style="display: block;border-top: 4px solid #64fd1f;border-bottom: 4px solid #1e8c03;border-left: 4px solid #156c00;border-right: 4px solid #47d009;width: 200px;height: 50px;background-color: #31ae1f;box-shadow: 0 4px 0 0 rgba(0,0,0,.15);text-align: center;padding-top: 10px;color: white;
+            " class="animated fadeInUp">Shop Now</a>
+             </div>
+           </div>
+           <div class="item">
+            <div class="smmm" style="width: 100%;background:url(./img/bbb2.jpg) center center / cover"></div>
+             <div style="width:50%;height:80%;;position:absolute;top: 18%;left: 15%;">
+                  <p style="font-size: 5rem;font-weight: 700;color: white;">New Tees</p>
+                  <p style="font-size: 2rem;font-weight: 500;color: white;" class="sm">Get Equipped</p>
+                  <a href="#" style="display: block;border-top: 4px solid #64fd1f;border-bottom: 4px solid #1e8c03;border-left: 4px solid #156c00;border-right: 4px solid #47d009;width: 200px;height: 50px;background-color: #31ae1f;box-shadow: 0 4px 0 0 rgba(0,0,0,.15);text-align: center;padding-top: 10px;color: white;
+              " class="animated fadeInUp">Shop Now</a>
+               </div>
+             </div>
+         </div>
+         <!-- Controls -->
+         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+   </div>
+      <!-- 下方图片 -->
+      <div class="container" style="margin-top: 15px;">
+      <div class="row">
+         <div class="col-md-6 col-sm-12" style="padding:0px;overflow: hidden;">
+            <a href="./shopall.html">
+               <div style="width: 100%;overflow: hidden;position: relative;" class="bigger">
+                  <span style="position: absolute;bottom: 15px;left: 20px;font-size: 45px;">What's New</span>
+                  <img src="./img/shop/index/cart1.png" class="img-responsive" style="padding: 10px;">
+               </div>
+            </a>
+         </div>
+         <div class="col-md-6 col-sm-12" style="padding:0px;overflow: hidden;">
+            <div class="col-md-6 col-sm-12" style="padding:0px;">
+               <a href="./shopall.html">
+                  <div style="width: 100%;overflow: hidden;position: relative;" class="bigger">
+                     <span style="position: absolute;bottom: 15px;left: 20px;font-size: 30px;">TOYS</span>
+                     <img src="./img/shop/index/diamond-steve.jpg" class="img-responsive" style="padding: 10px;">
+                  </div>
+               </a>         
+            </div>
+            <div class="col-md-6 col-sm-12" style="padding:0px;overflow: hidden;">
+               <a href="./shopall.html">
+                  <div style="width: 100%;overflow: hidden;position: relative;" class="bigger">
+                     <span style="position: absolute;bottom: 15px;left: 20px;font-size: 30px;">CLOTHING</span>
+                        <img src="./img/shop/index/500.jpg" class="img-responsive" style="padding: 10px;">
+                  </div>
+               </a>         
+            </div>
+         </div>
+         <div class="col-md-6 col-sm-12" style="padding:0px;">
+            <div class="col-md-6 col-sm-12" style="padding:0px;overflow: hidden;">
+               <a href="./shopall.html">
+                  <div style="width: 100%;overflow: hidden;position: relative;" class="bigger">
+                     <span style="position: absolute;bottom: 15px;left: 20px;font-size: 30px;">Bags & Packs</span>
+                        <img src="./img/shop/index/bags2.jpg" class="img-responsive" style="padding: 10px;">
+                  </div>
+               </a>         
+            </div>
+            <div class="col-md-6 col-sm-12" style="padding:0px;overflow: hidden;">
+               <a href="./shopall.html">
+                  <div style="width: 100%;overflow: hidden;position: relative;" class="bigger">
+                     <span style="position: absolute;bottom: 15px;left: 20px;font-size: 30px;">BOOKS</span>
+                        <img src="./img/shop/index/50011.jpg" class="img-responsive" style="padding: 10px;">
+                  </div>
+               </a>         
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-6 col-sm-12" style="padding:0px;overflow: hidden;">
+            <a href="./shopall.html">
+               <div style="width: 100%;overflow: hidden;position: relative;" class="bigger">
+                  <span style="position: absolute;bottom: 15px;left: 20px;font-size: 45px;">Accessories</span>
+                  <img src="./img/shop/index/homepage_acc.jpg" class="img-responsive" style="padding: 10px;">
+               </div>
+            </a>      
+         </div>
+         <div class="col-md-6 col-sm-12" style="padding:0px;overflow: hidden;">
+            <a href="./shopall.html">
+               <div style="width: 100%;overflow: hidden;position: relative;" class="bigger">
+                  <span style="position: absolute;bottom: 15px;left: 20px;font-size: 45px;">On Sale</span>
+                  <img src="./img/shop/index/sale00.jpg" class="img-responsive" style="padding: 10px;">
+               </div>
+            </a>      
+         </div>
+      </div>
+   </div>
+   <footer style="background-color: black;margin-top: 5%;">
+      <div class="container" style="padding: 0;">
+         <div style="padding:5% 0;width: 100%;">
+            <div class="row">
+               <div class="col-md-6 col-sm-12">
+                  <div>
+                     <img src="./img/toplogo.jpg" class="img-responsive">
+                  </div>
+                  <div>
+                     <p style="color: rgb(85, 85, 85);">Mojang © 2009-2018. "Minecraft" is a trademark of Mojang Synergies AB</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-sm-12 kuaikuai">
+                  <p style="font-size: 20px;color: white;font-weight: 300;">Shop</p>
+                  <hr style="margin: 10px 0;">
+                  <ul class="footshop">
+                     <li><a href="#"> Clothing</a></li>
+                     <li><a href="#">Accessories</a></li>
+                     <li><a href="#">Toys</a></li>
+                     <li><a href="#">Shop All</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3 col-sm-12 kuaikuai">
+                  <p style="font-size: 20px;color: white;font-weight: 300;">Help & Information</p>
+                  <hr style="margin: 10px 0;">
+                  <ul class="footshop">
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">Return Policy</a></li>
+                     <li><a href="#">FAQ</a></li>
+                     <li><a href="#">Minecraft.net</a></li>
+                  </ul>
+               </div>
+      
+            </div>
+         </div>
+      </div>
+      <div style="background-color: #1e1e1e;padding: 10px 0;">
+         <img src="./img/footlogo.png" style="height:40px;margin-left: 10px;float: left;">
+         <div style="text-align:center;" class="footshop">
+            <span style="margin-right: 105px;">All content and designs ©1999-2018 Jinx, Inc. unless otherwise stated.</span><br>
+            <a href="#">Privacy Policy</a>|<a href="#">Terms</a>|<a href="#" style="margin-right: 105px;">Wholesale</a>
+         </div>
+      </div>
+   </footer>
+   <script src="js/jquery-1.11.3.js"></script>  
+   <script src="js/bootstrap.js"></script>
+       <script>
+          $(".carousel").carousel({interval:2000});
+       </script>
+</body>
+</html>
